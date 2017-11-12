@@ -5,11 +5,20 @@
   "main": "index.js",
   "dependencies": {
     "koa": "^2.4.1",
-    "koa-body": "^2.5.0"
+    "koa-body": "^2.5.0",
+    "koa-logger": "^3.1.0",
+    "koa-router": "^7.2.1",
+    "koa-views": "^6.1.2",
+    "swig": "^1.4.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "should": "^13.1.3",
+    "supertest": "^3.0.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha */test.js"
   },
   "keywords": [],
   "author": "Jiseung Roh <jiseung.roh@gmail.com> (http://rohjs.github.io/)",
